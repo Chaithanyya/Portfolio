@@ -2,11 +2,15 @@
 #navbar-example2 ul li a span:hover{
     color: orange;
 }
-.navbar-toggler{
+#onemorebut{
     display: none;
 }
 #onemore span:hover{
     color: orange;
+}
+#onemorebut{
+    background: none;
+    border: none;
 }
 .first_page{
     padding-top: 200px;
@@ -25,7 +29,7 @@
     #anotherone{
         display: none;
     }
-    .navbar-toggler{
+    #onemorebut{
         display: block;
     }
     .first_page{
@@ -117,6 +121,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%
+}
+.soc-icons2 a:hover{
+    transform: scale3d(1.1,1.1,1.1);
 }
 .soc-icons a:hover{
     transform: scale3d(1.1,1.1,1.1);
